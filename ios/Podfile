@@ -1,1 +1,10 @@
 platform :ios, '13.0'
+
+workspace 'Runner.xcworkspace'
+
+target 'Runner' do
+  use_frameworks!
+  use_modular_headers!
+
+  # Add your dependencies here
+end
