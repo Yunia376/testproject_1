@@ -6,5 +6,7 @@ target 'Runner' do
   use_frameworks!
   use_modular_headers!
 
-  # Add your dependencies here
+  # Pods for Runner
+  pod 'Firebase/Core'
+  pod 'Firebase/Firestore'
 end
